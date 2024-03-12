@@ -1,0 +1,66 @@
+Testing WebSites :
+https://www.w3.org/TR/webdriver2/
+https://www.selenium.dev/documentation/en/webdriver/
+
+Dependencies and its Uses:
+1. Selenium Java
+    The purpose of selenium-java is to provide the core functionality for
+    Selenium WebDriver automation in Java. It allows developers to interact
+    with web elements, perform actions on web pages, execute JavaScript,
+    manage browser sessions, and more.
+2. WebDriverManager
+     WebDriverManager is used to automate the management of the binary drivers
+     required by Selenium WebDriver. It is used to download the required
+     WebDriver binary files (e.g., chromedriver, geckodriver, etc.) and
+     configure the system properties required by Selenium WebDriver.
+3. TestNG
+    TestNG is a testing framework inspired from JUnit and NUnit but introducing
+    some new functionalities that make it more powerful and easier to use.
+4. Allure TestNG
+    Allure TestNG is a flexible, lightweight, multi-language test report tool
+    that not only shows a very concise representation of what have been tested
+    in a neat web report form, but allows everyone participating in the
+    development process to extract maximum of useful information from everyday
+    execution of tests.
+5. Log4j
+    Log4j is a reliable, fast and flexible logging framework (APIs) written in
+    Java, which is distributed under the Apache Software License. Log4j has
+    been ported to the C, C++, C#, Perl, Python, Ruby, and Eiffel languages.
+    It is highly configurable through external configuration files and
+    programmatically.
+6. Extent Report
+    ExtentReports is a logger-style reporting library for automated tests.
+    It creates detailed and beautiful HTML reports for modern browsers.
+    ExtentReports shows test and step summary, test steps, and logs,
+    including screenshots, and more.
+7. Apache POI
+    Apache POI is a popular API that allows programmers to create, modify, and
+    display MS Office files using Java programs. It is an open-source library
+    developed and distributed by Apache Software Foundation to design or modify
+    Microsoft Office files using Java program. It contains classes and methods
+    to decode and encode MS Office files.
+
+Allure Reports :
+1. Add Dependencies
+        <dependency>
+          <groupId>io.qameta.allure</groupId>
+          <artifactId>allure-testng</artifactId>
+          <version>2.25.0</version>
+        </dependency>
+2. Open cmd promot and type : allure --version
+     2.27.0
+3. Open cmd promot and type : mvn --version
+    Apache Maven 3.9.6
+4. allure-results folder will be created in the project
+5. Open Terminal in Intellij and type : allure serve
+6. Allure Report will be generated and opened in the browser
+
+
+Git :
+echo "# Selenium_TTA1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shankarshivam9/Selenium_TTA1.git
+git push -u origin main
